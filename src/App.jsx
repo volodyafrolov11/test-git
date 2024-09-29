@@ -6,7 +6,8 @@ const App = () => {
 
     return (
         <div className="counter">
-            <h1>{count}</h1>
+            <h2 style={{color: "white"}}>COUNTER</h2>
+            <h1 className="title">{count}</h1>
             <button
                 className="button"
                 onClick={() => setCount(prev => prev + 1)}
