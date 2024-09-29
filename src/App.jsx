@@ -6,6 +6,7 @@ const App = () => {
 
     return (
         <div className="counter">
+            <h2 style={{color: "white"}}>COUNTER</h2>
             <h1 className="title">{count}</h1>
             <button
                 className="button"
